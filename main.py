@@ -8,7 +8,7 @@ def Main():
     port = input(" The person you're chatting with port number goes here>")
     ip = input("The IP for the person you're talking with goes here>")
     host=IPAddr #IP
-    port = 4005
+    port = 43915
     
     server = (ip, port) #tells us who to send it to
     
