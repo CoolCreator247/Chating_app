@@ -10,7 +10,7 @@ def Main():
     host=IPAddr #IP
     port = 4005
     
-    server = (ip, port) #tells us who to send it to
+    server = (ip, port)
     
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.bind((host,port))
