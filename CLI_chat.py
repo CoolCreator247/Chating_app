@@ -20,7 +20,7 @@ def Main():
         s.sendto(message.encode('utf-8'), server)
         data, addr = s.recvfrom(1024)
         data = data.decode('utf-8')
-        print("Received from server: " + data)
+        print("Received from sender: " + data)
         message = input("-> ")
     s.close()
 
